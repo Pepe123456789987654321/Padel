@@ -1,0 +1,6 @@
+{
+  "name": "Punto Padel - Reserva de Canchas",
+  "description": "Grilla simple de reserva de canchas de pádel en tiempo real con selector de fecha, estado por franja horaria y pago de seña por Mercado Pago.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

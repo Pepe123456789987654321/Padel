@@ -1,0 +1,437 @@
+{
+  "courts": [
+    {
+      "id": "c1",
+      "name": "Cancha 1 - Cristal WPT Indoor",
+      "type": "Techada Cristal",
+      "surface": "Césped Sintético Texturizado Azul WPT",
+      "price": 18000,
+      "depositPrice": 6000,
+      "image": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=1200&q=80",
+      "description": "Cancha premium techada de nivel profesional con cristal de 12mm, césped oficial World Padel Tour y grabación de video HD.",
+      "features": [
+        "Iluminación LED 400W",
+        "Techada y Climatizada",
+        "Camaras HD de Grabación",
+        "Luz Perimetral Pro"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "c2",
+      "name": "Cancha 2 - Panorámica Exterior",
+      "type": "Exterior Panorámica",
+      "surface": "Césped Fibrilado Pro Verde",
+      "price": 15000,
+      "depositPrice": 5000,
+      "image": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=1200&q=80",
+      "description": "Excelente cancha al aire libre panorámica, con iluminación nocturna de alta potencia y amplio espacio exterior.",
+      "features": [
+        "Iluminación Nocturna LED",
+        "Vista Panorámica Sin Columnas",
+        "Zona de Descanso Privada",
+        "Apto para Noche"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "c3",
+      "name": "Cancha 3 - Club Master Techada",
+      "type": "Cancha Indoor VIP",
+      "surface": "Césped Monofilamento Azul Premium",
+      "price": 16500,
+      "depositPrice": 5500,
+      "image": "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?auto=format&fit=crop&w=1200&q=80",
+      "description": "Cancha cubierta resguardada de la intemperie con rebote perfecto, acústica insonorizada y bancos ergonómicos.",
+      "features": [
+        "Techo Aislante Termoacústico",
+        "Césped de Alta Densidad",
+        "Marcador Electrónico",
+        "Puntuación Digital"
+      ],
+      "isActive": true
+    }
+  ],
+  "bookings": [
+    {
+      "id": "res-101",
+      "courtId": "c1",
+      "courtName": "Cancha 1 - Cristal WPT Indoor",
+      "date": "2026-10-06",
+      "timeSlot": {
+        "startTime": "14:30",
+        "endTime": "16:00",
+        "label": "14:30"
+      },
+      "userName": "Liga ponja vs bruno",
+      "userEmail": "liga.ponja@gmail.com",
+      "userPhone": "+54 9 11 4522-8901",
+      "totalPrice": 18000,
+      "depositPaid": 6000,
+      "remainingBalance": 12000,
+      "paymentMethod": "Mercado Pago",
+      "paymentStatus": "approved",
+      "mercadoPagoPreferenceId": "MP-PREF-991201",
+      "mercadoPagoPaymentId": "MP-PAY-884102",
+      "createdAt": "2026-10-06T14:35:42.531Z",
+      "notes": "Partido de Liga"
+    },
+    {
+      "id": "res-102",
+      "courtId": "c2",
+      "courtName": "Cancha 2 - Panorámica Exterior",
+      "date": "2026-10-06",
+      "timeSlot": {
+        "startTime": "14:30",
+        "endTime": "16:00",
+        "label": "14:30"
+      },
+      "userName": "Liga rama vs alva",
+      "userEmail": "liga.rama@hotmail.com",
+      "userPhone": "+54 9 11 6723-1190",
+      "totalPrice": 15000,
+      "depositPaid": 5000,
+      "remainingBalance": 10000,
+      "paymentMethod": "Mercado Pago",
+      "paymentStatus": "approved",
+      "mercadoPagoPreferenceId": "MP-PREF-991202",
+      "mercadoPagoPaymentId": "MP-PAY-884103",
+      "createdAt": "2026-10-06T16:35:42.531Z"
+    },
+    {
+      "id": "res-103",
+      "courtId": "c1",
+      "courtName": "Cancha 1 - Cristal WPT Indoor",
+      "date": "2026-10-06",
+      "timeSlot": {
+        "startTime": "16:00",
+        "endTime": "17:30",
+        "label": "16:00"
+      },
+      "userName": "Gabi Veletti",
+      "userEmail": "gabi.veletti@gmail.com",
+      "userPhone": "+54 9 11 3102-9988",
+      "totalPrice": 18000,
+      "depositPaid": 6000,
+      "remainingBalance": 12000,
+      "paymentMethod": "Mercado Pago",
+      "paymentStatus": "approved",
+      "mercadoPagoPreferenceId": "MP-PREF-991203",
+      "createdAt": "2026-10-06T17:35:42.531Z"
+    },
+    {
+      "id": "res-104",
+      "courtId": "c2",
+      "courtName": "Cancha 2 - Panorámica Exterior",
+      "date": "2026-10-06",
+      "timeSlot": {
+        "startTime": "16:00",
+        "endTime": "17:30",
+        "label": "16:00"
+      },
+      "userName": "M&M Pádel",
+      "userEmail": "m.m@padel.com",
+      "userPhone": "+54 9 11 8821-3310",
+      "totalPrice": 15000,
+      "depositPaid": 5000,
+      "remainingBalance": 10000,
+      "paymentMethod": "Mercado Pago",
+      "paymentStatus": "approved",
+      "createdAt": "2026-10-06T18:35:42.531Z"
+    },
+    {
+      "id": "res-105",
+      "courtId": "c1",
+      "courtName": "Cancha 1 - Cristal WPT Indoor",
+      "date": "2026-10-06",
+      "timeSlot": {
+        "startTime": "20:30",
+        "endTime": "22:00",
+        "label": "20:30"
+      },
+      "userName": "Gustavo Peralta",
+      "userEmail": "gustavo.padel@gmail.com",
+      "userPhone": "+54 9 11 5510-4499",
+      "totalPrice": 18000,
+      "depositPaid": 6000,
+      "remainingBalance": 12000,
+      "paymentMethod": "Mercado Pago",
+      "paymentStatus": "approved",
+      "createdAt": "2026-10-06T19:05:42.531Z",
+      "isOpenMatch": true,
+      "matchCategory": "5ta Categoría",
+      "maxPlayers": 4,
+      "openMatchStatus": "buscando_jugadores",
+      "creatorToken": "tok-gustavo-105",
+      "players": [
+        {
+          "id": "pl-105-1",
+          "name": "Gustavo Peralta",
+          "phone": "+54 9 11 5510-4499",
+          "category": "5ta Categoría",
+          "preferredSide": "Drive",
+          "joinedAt": "2026-10-06T15:35:42.531Z",
+          "isHost": true
+        },
+        {
+          "id": "pl-105-2",
+          "name": "Lucas Rossi",
+          "phone": "+54 9 11 3499-1122",
+          "category": "5ta Categoría",
+          "preferredSide": "Revés",
+          "joinedAt": "2026-10-06T17:35:42.531Z",
+          "isHost": false
+        },
+        {
+          "id": "pl-105-3",
+          "name": "Martín Díaz",
+          "phone": "+54 9 11 6710-8822",
+          "category": "5ta Categoría",
+          "preferredSide": "Ambos",
+          "joinedAt": "2026-10-06T18:35:42.531Z",
+          "isHost": false
+        }
+      ]
+    },
+    {
+      "id": "res-106",
+      "courtId": "c3",
+      "courtName": "Cancha 3 - Club Master Techada",
+      "date": "2026-10-06",
+      "timeSlot": {
+        "startTime": "19:00",
+        "endTime": "20:30",
+        "label": "19:00"
+      },
+      "userName": "Matías Gomez",
+      "userEmail": "matias.gomez@padel.com",
+      "userPhone": "+54 9 11 4433-2211",
+      "totalPrice": 16500,
+      "depositPaid": 5500,
+      "remainingBalance": 11000,
+      "paymentMethod": "Mercado Pago",
+      "paymentStatus": "approved",
+      "createdAt": "2026-10-06T16:35:42.531Z",
+      "isOpenMatch": true,
+      "matchCategory": "6ta / 7ma Categoría",
+      "maxPlayers": 4,
+      "openMatchStatus": "buscando_jugadores",
+      "creatorToken": "tok-matias-106",
+      "players": [
+        {
+          "id": "pl-106-1",
+          "name": "Matías Gomez",
+          "phone": "+54 9 11 4433-2211",
+          "category": "6ta / 7ma Categoría",
+          "preferredSide": "Drive",
+          "joinedAt": "2026-10-06T16:35:42.531Z",
+          "isHost": true
+        },
+        {
+          "id": "pl-106-2",
+          "name": "Nicolás Vega",
+          "phone": "+54 9 11 8899-7766",
+          "category": "6ta / 7ma Categoría",
+          "preferredSide": "Revés",
+          "joinedAt": "2026-10-06T18:05:42.531Z",
+          "isHost": false
+        }
+      ]
+    },
+    {
+      "id": "res-095",
+      "courtId": "c1",
+      "courtName": "Cancha 1 - Cristal WPT Indoor",
+      "date": "2026-10-05",
+      "timeSlot": {
+        "startTime": "19:00",
+        "endTime": "20:30",
+        "label": "19:00"
+      },
+      "userName": "Martín Zeballos",
+      "userEmail": "mzeballos@gmail.com",
+      "userPhone": "+54 9 11 7733-2211",
+      "totalPrice": 18000,
+      "depositPaid": 6000,
+      "remainingBalance": 12000,
+      "paymentMethod": "Mercado Pago",
+      "paymentStatus": "approved",
+      "createdAt": "2026-10-05T14:47:42.531Z"
+    },
+    {
+      "id": "res-096",
+      "courtId": "c3",
+      "courtName": "Cancha 3 - Club Master Techada",
+      "date": "2026-10-05",
+      "timeSlot": {
+        "startTime": "20:30",
+        "endTime": "22:00",
+        "label": "20:30"
+      },
+      "userName": "Joaquín Navarro",
+      "userEmail": "jnavarro@padel.com",
+      "userPhone": "+54 9 11 4455-6677",
+      "totalPrice": 16500,
+      "depositPaid": 5500,
+      "remainingBalance": 11000,
+      "paymentMethod": "Mercado Pago",
+      "paymentStatus": "approved",
+      "createdAt": "2026-10-05T12:23:42.531Z"
+    },
+    {
+      "id": "res-097",
+      "courtId": "c2",
+      "courtName": "Cancha 2 - Panorámica Exterior",
+      "date": "2026-10-05",
+      "timeSlot": {
+        "startTime": "22:00",
+        "endTime": "23:30",
+        "label": "22:00"
+      },
+      "userName": "Federico Baldi",
+      "userEmail": "fedebaldi@gmail.com",
+      "userPhone": "+54 9 11 9988-1122",
+      "totalPrice": 15000,
+      "depositPaid": 5000,
+      "remainingBalance": 10000,
+      "paymentMethod": "Efectivo en Club",
+      "paymentStatus": "approved",
+      "createdAt": "2026-10-05T09:59:42.531Z"
+    },
+    {
+      "id": "res-088",
+      "courtId": "c1",
+      "courtName": "Cancha 1 - Cristal WPT Indoor",
+      "date": "2026-10-04",
+      "timeSlot": {
+        "startTime": "17:30",
+        "endTime": "19:00",
+        "label": "17:30"
+      },
+      "userName": "Tomás Albarracín",
+      "userEmail": "tomas.alba@gmail.com",
+      "userPhone": "+54 9 11 3322-1100",
+      "totalPrice": 18000,
+      "depositPaid": 6000,
+      "remainingBalance": 12000,
+      "paymentMethod": "Mercado Pago",
+      "paymentStatus": "approved",
+      "createdAt": "2026-10-04T14:47:42.531Z"
+    },
+    {
+      "id": "res-089",
+      "courtId": "c3",
+      "courtName": "Cancha 3 - Club Master Techada",
+      "date": "2026-10-04",
+      "timeSlot": {
+        "startTime": "19:00",
+        "endTime": "20:30",
+        "label": "19:00"
+      },
+      "userName": "Nicolás Soria",
+      "userEmail": "nsoria@yahoo.com",
+      "userPhone": "+54 9 11 6611-9988",
+      "totalPrice": 16500,
+      "depositPaid": 5500,
+      "remainingBalance": 11000,
+      "paymentMethod": "Mercado Pago",
+      "paymentStatus": "approved",
+      "createdAt": "2026-10-04T12:23:42.531Z"
+    },
+    {
+      "id": "res-080",
+      "courtId": "c2",
+      "courtName": "Cancha 2 - Panorámica Exterior",
+      "date": "2026-10-03",
+      "timeSlot": {
+        "startTime": "20:30",
+        "endTime": "22:00",
+        "label": "20:30"
+      },
+      "userName": "Gonzalo Medina",
+      "userEmail": "gmedina@gmail.com",
+      "userPhone": "+54 9 11 1122-3344",
+      "totalPrice": 15000,
+      "depositPaid": 5000,
+      "remainingBalance": 10000,
+      "paymentMethod": "Mercado Pago",
+      "paymentStatus": "approved",
+      "createdAt": "2026-10-03T14:47:42.531Z"
+    },
+    {
+      "id": "res-110",
+      "courtId": "c1",
+      "courtName": "Cancha 1 - Cristal WPT Indoor",
+      "date": "2026-10-07",
+      "timeSlot": {
+        "startTime": "19:00",
+        "endTime": "20:30",
+        "label": "19:00"
+      },
+      "userName": "Claudio Rinaldi",
+      "userEmail": "crinaldi@gmail.com",
+      "userPhone": "+54 9 11 8877-6655",
+      "totalPrice": 18000,
+      "depositPaid": 6000,
+      "remainingBalance": 12000,
+      "paymentMethod": "Mercado Pago",
+      "paymentStatus": "approved",
+      "createdAt": "2026-10-06T19:35:42.531Z"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "block-1",
+      "courtId": "c3",
+      "date": "2026-10-06",
+      "slotId": "s1",
+      "reason": "Mantenimiento de iluminación"
+    }
+  ],
+  "admins": [
+    {
+      "id": "adm-1",
+      "name": "Administrador General",
+      "role": "Administrador Principal",
+      "pin": "1234",
+      "email": "admin@puntopadel.com",
+      "createdAt": "2026-10-06T19:35:42.530Z"
+    },
+    {
+      "id": "adm-2",
+      "name": "Recepción Mostrador",
+      "role": "Recepción / Canchero",
+      "pin": "1234",
+      "email": "recepcion@puntopadel.com",
+      "createdAt": "2026-10-06T19:35:42.530Z"
+    }
+  ],
+  "fixedSlotRequests": [
+    {
+      "id": "fix-seed-1",
+      "userName": "Claudio Caniggia",
+      "userPhone": "+54 9 11 5566-7788",
+      "dayOfWeek": "Martes",
+      "startTime": "20:30",
+      "courtId": "c1",
+      "courtName": "Cancha 1 - Cristal WPT Indoor",
+      "frequency": "Semanal (Todos los meses)",
+      "notes": "Grupo de 4 jugadores fijos para todo el año",
+      "createdAt": "2026-10-04T19:35:42.531Z",
+      "status": "approved"
+    },
+    {
+      "id": "fix-seed-2",
+      "userName": "Prof. Emiliano Costa",
+      "userPhone": "+54 9 11 9900-1122",
+      "dayOfWeek": "Jueves",
+      "startTime": "19:00",
+      "courtId": "c2",
+      "courtName": "Cancha 2 - Panorámica Exterior",
+      "frequency": "Semanal (Todos los meses)",
+      "notes": "Clases de entrenamiento funcional de pádel",
+      "createdAt": "2026-10-05T19:35:42.531Z",
+      "status": "pending"
+    }
+  ]
+}
